@@ -1,5 +1,7 @@
 .idea
 build
 dist
+*__pycache__
+*.py[cdo]
 *.egg-info
 *.pickle
