@@ -1,0 +1,7 @@
+numpy
+pandas
+pandas-datareader
+bs4
+lxml
+scikit-learn
+nltk
