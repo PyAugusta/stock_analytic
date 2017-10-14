@@ -21,7 +21,7 @@ for directory in [_nyt, _yahoo, _cleaned, _classifiers, _analysis]:
 
 
 nyt_search_url = 'http://api.nytimes.com/svc/search/v2/articlesearch.json'
-nyt_api_key = 'c88a5510a59d4e4c909472075ac603a1'
+nyt_api_key = os.environ['nyt_api_key']
 nyt_search_filter = 'section_name:("Business" "Financial")'
 nyt_fields = 'snippet,pub_date'
 nyt_dt_fmt = '%Y%m%d'
